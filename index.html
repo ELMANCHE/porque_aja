@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Socket.IO chat</title>
+  <title>Mi_primer_chat</title>
   <style>
     body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 
@@ -19,6 +19,8 @@
   <form id="form" action="">
     <input id="input" autocomplete="off" /><button>Send</button>
   </form>
+
+  <!-- Establece una conexión con el servidor Socket.IO y gestiona el envío y recepción de mensajes en tiempo real.-->
   <script src="/socket.io/socket.io.js"></script>
   <script>
     var socket = io();

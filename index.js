@@ -21,12 +21,13 @@ io.on('connection', (socket) => {
   });
 });
 
-// mensajes en el vs
+/*// mensajes en el vs
 io.on('connection', (socket) => {
   socket.on('chat message', (msg) => {
     console.log('message: ' + msg);
   });
 });
+*/
 
 server.listen(3000, () => {
   console.log('listening on *:3000');
